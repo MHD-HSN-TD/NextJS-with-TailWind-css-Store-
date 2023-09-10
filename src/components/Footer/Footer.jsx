@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className="footer p-10 bg-neutral text-neutral-content">
             <div>
-                <Image src="/images/hsn.png" alt="hsn photo" width={126} height={126} className="w-auto h-auto" />
+                <Image src="/images/logo_footer2.svg" alt="hsn photo" width={150} height={150} className="mb-2" />
                 <p className="">Copyright © 2023 By
                     <a className="text-success " href="https://github.com/MHD-HSN-TD" target="_blank"> MHD Hasn AL-Khalil Tadmori </a>. All rights reserved.</p>
             </div>
