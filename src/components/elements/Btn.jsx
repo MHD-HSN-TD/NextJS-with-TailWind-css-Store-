@@ -1,10 +1,10 @@
 "use client"
-const Btn = () => {
+const Btn = ({ name }) => {
     return (
         <>
             <button class=" btn btn-success btn-sm"
                 onClick={() => { console.log('clicked') }}
-            >Button</button>
+            >{name}</button>
         </>
     )
 }

@@ -27,7 +27,7 @@ const NavBar = () => {
                 <div className="navbar-end hidden lg:flex me-10  ">
                     <ul className="menu menu-horizontal px-3">
                         <NavBarLinks />
-                        <Btn className='btn-success'></Btn>
+                        <Btn className='btn-success' name='Log In'></Btn>
                     </ul>
                     <ThemeChanger></ThemeChanger>
                 </div>
