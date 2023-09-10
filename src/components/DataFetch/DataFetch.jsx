@@ -23,7 +23,7 @@ const DataFetch = async ({ ProId }) => {
         <div className="grid  lg:grid-cols-4 gap-3 grid-cols-2 lg:px-40 my-6 ">
 
 
-            {data.map(el => <Link href={`/products/${el.id}`}>
+            {data.map(el => <Link href={`/products/${el.id}`} key={el.id}>
                 <Card
                     img={el.thumbnail}
                     title={el.title}

@@ -4,7 +4,7 @@ import Card from "../Card/Card"
 const ShowData = ({ arr, obj, data }) => {
 
     const asArr = <div className="grid  lg:grid-cols-4 gap-3 grid-cols-2 lg:px-40 ">
-        {data.map(el => <Link href={`/products/${el.id}`}>
+        {data.map(el => <Link href={`/products/${el.id}`} key={el.id}>
             <Card
                 img={el.thumbnail}
                 title={el.title}
