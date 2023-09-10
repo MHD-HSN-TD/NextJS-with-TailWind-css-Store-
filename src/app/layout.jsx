@@ -2,7 +2,6 @@ import './globals.css'
 import { Kanit } from 'next/font/google'
 import Footer from '@/components/Footer/Footer'
 import NavBar from '@/components/navBar/NavBar'
-import Btn from '../components/elements/Btn'
 import { Providers } from '@/components/Provider/Provider'
 
 
