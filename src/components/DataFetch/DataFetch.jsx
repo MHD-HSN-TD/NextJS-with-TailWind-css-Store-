@@ -25,6 +25,7 @@ const DataFetch = async ({ ProId }) => {
 
             {data.map(el => <Link href={`/products/${el.id}`} key={el.id}>
                 <Card
+                    key={el.id}
                     img={el.thumbnail}
                     title={el.title}
                     desc={el.description}
