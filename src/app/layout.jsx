@@ -22,9 +22,6 @@ export default function RootLayout({ children }) {
         <Providers>
           <NavBar />
           {children}
-          <div className='h-screen'>
-          </div>
-          <Btn></Btn>
           <Footer></Footer>
         </Providers>
       </body>
