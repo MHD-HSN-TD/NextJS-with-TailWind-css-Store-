@@ -68,12 +68,14 @@ const Category = async ({ params }) => {
                     height={500}
                 />
                 <div className="flex justify-center gap-10 my-6">
-                    {data.images.map((image) => (
+                    {data.images.map((image, index) => (
                         <Image
+                            key={data.id}
                             className=" rounded"
                             src={image}
                             width={100}
                             height={100}
+                            alt={data.title}
                         />
                     ))}
                 </div>
