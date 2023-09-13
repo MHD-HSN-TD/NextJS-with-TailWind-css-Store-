@@ -21,7 +21,8 @@ const Footer = () => {
             {/* //?-----social start------- */}
             <div>
                 <span className="footer-title">Social</span>
-                <div className="grid  gap-10 grid-cols-2">
+                {/* <div className="grid  gap-10 grid-cols-2"> */}
+                <div className="flex flex-wrap lg:gap-6 gap-4">
                     {social.map(item =>
                         <Image
                             key={item.id}
