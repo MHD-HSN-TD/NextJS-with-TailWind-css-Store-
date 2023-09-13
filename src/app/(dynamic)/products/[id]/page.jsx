@@ -1,5 +1,6 @@
 
 import Slider from "@/components/Slider/Slider";
+import Slider2 from "@/components/Slider/Slider2";
 import axios from "axios";
 import Image from "next/image";
 import Link from "next/link";
@@ -67,7 +68,7 @@ const Category = async ({ params }) => {
                     width={500}
                     height={500}
                 />
-                <div className="flex justify-center gap-10 my-6">
+                <div className="flex justify-center lg:gap-10 gap-2 flex-wrap my-6">
                     {data.images.map((image, index) => (
                         <Image
                             key={data.id}
@@ -79,9 +80,12 @@ const Category = async ({ params }) => {
                         />
                     ))}
                 </div>
-                <div className="">
+                {/* <div className="">
                     <Slider imgs={data.images}></Slider>
                 </div>
+                <div className="">
+                    <Slider2 imgs={data.images}></Slider2>
+                </div> */}
                 <div className="mx-10">
                     <h1 className=" py-3 text-3xl">Product Information :</h1>
                     <p className="columns-2 text-justify" >

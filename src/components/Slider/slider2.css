@@ -1,0 +1,28 @@
+.Slider2 {
+  .rsis-container {
+    width: 300px !important;
+    height:  300px !important;
+  }
+}
+
+.Slider2 {
+  .rsis-image {
+    background-size: auto !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .Slider2 {
+  .rsis-container {
+    width: 100vh !important;
+    height:  140px !important;
+  }
+}
+
+.Slider2 {
+  .rsis-image {
+    background-size: auto !important;
+  }
+}
+}

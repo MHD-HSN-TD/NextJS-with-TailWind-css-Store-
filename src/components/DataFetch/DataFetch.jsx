@@ -13,7 +13,7 @@ const DataFetch = async ({ ProId }) => {
             const response = await axios.get("https://dummyjson.com/products/");
             return response.data.products
         } catch (error) {
-            console.loa(error);
+            console.log(error);
         }
     }
     const data = await getUser()
